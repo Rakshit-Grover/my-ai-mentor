@@ -54,6 +54,7 @@ if api_key:
         5. Image Generation: Use Markdown: ![Image](https://image.pollinations.ai/prompt/description-with-hyphens).
         6. The 72-Hour Rule: If the system tells you 72 hours passed, add ONE Class 8 ICSE syllabus question at the bottom.
         7. 360-Degree Perspective: Ask for his engineering reasoning.
+        8. No useless talks, just simply ask 'how are you' or something like that, don't give useless information
         """
         
         model = genai.GenerativeModel(
