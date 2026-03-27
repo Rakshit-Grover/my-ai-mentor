@@ -95,7 +95,7 @@ if api_key:
                 with st.empty():
                     st.markdown("""
                         <div>
-                            <img src="https://cdn-icons-png.flaticon.com/512/3003/3003005.png" class="chakra-spinner">
+                           <img src="https://nx7652.v.fwmrm.net/ad/g/1?nw=541571&prof=541571:vmp_android_phone_app_live_3&caid=26231908&asid=788b776a-78d1-4e78-9993-49277d34608c&pxtags=player_name:shofull;vmp_ver:3.10.0;vmp_asid:788b776a-78d1-4e78-9993-49277d34608c;vmp_nw:541571;vmp_prof:541571:vmp_android_phone_app_live_3;vmp_caid:26231908;vmp_csid:vmp_android_phone_app_live_3;vmp_ssn:1743082717145;vmp_pxtags:player_name:shofull;vmp_ver:3.10.0;vmp_asid:788b776a-78d1-4e78-9993-49277d34608c;vmp_nw:541571;vmp_prof:541571:vmp_android_phone_app_live_3;vmp_caid:26231908;vmp_csid:vmp_android_phone_app_live_3;vmp_ssn:1743082717145;vmp_pxtags:player_name:shofull;vmp_ver:3.10.0;vmp_asid:788b776a-78d1-4e78-9993-49277d34608c;vmp_nw:541571;vmp_prof:541571:vmp_android_phone_app_live_3;vmp_caid:26231908;vmp_csid:vmp_android_phone_app_live_3;vmp_ssn:1743082717145" style="display:none;"><img src="https://i.pinimg.com/originals/a0/62/7b/a0627b9528f117c093a6f1943c2242b5.png" class="chakra-spinner">
                             <p class="loading-text">Divine Guidance Loading...</p>
                         </div>
                     """, unsafe_allow_html=True)
