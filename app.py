@@ -91,19 +91,23 @@ if api_key:
                 final_prompt = user_input
             
             with st.chat_message("assistant"):
-                # --- THE RELIABLE SUDARSHAN CHAKRA SPINNER ---
+                # --- PURE CODE SUDARSHAN CHAKRA (CANNOT FAIL) ---
                 with st.empty():
                     st.markdown("""
                         <div style="text-align: center;">
-                            <img src="https://img.icons8.com/color/512/chakra.png" class="chakra-spinner" style="width:100px;">
+                            <svg class="chakra-spinner" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="45" stroke="#FFD700" stroke-width="2" stroke-dasharray="5 5"/>
+                                <circle cx="50" cy="50" r="10" fill="#FFD700"/>
+                                <path d="M50 5 L55 35 L85 30 L65 50 L85 70 L55 65 L50 95 L45 65 L15 70 L35 50 L15 30 L45 35 Z" fill="#FFD700" stroke="#B8860B" stroke-width="1"/>
+                                <circle cx="50" cy="50" r="35" stroke="#FFD700" stroke-width="1" opacity="0.5"/>
+                            </svg>
                             <p class="loading-text">🕉️ Divine Guidance Loading...</p>
                         </div>
                     """, unsafe_allow_html=True)
                     
                     response = st.session_state.chat_session.send_message(final_prompt)
-                    time.sleep(1) # Gives the Chakra time to spin
-                    st.empty() # Clears the spinner once the answer is ready
-                
+                    time.sleep(1) 
+                    st.empty()
                 clean_response = response.text.replace("[System Timer: 72 hours have passed. Add an ICSE Class 8 question at the end of your response.]", "")
                 st.markdown(clean_response.strip())
                 
